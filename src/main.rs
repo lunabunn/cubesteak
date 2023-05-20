@@ -23,6 +23,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 fn help(code: i32) -> ! {
-    eprintln!("Usage: cubesteak <source> <target>");
+    eprintln!("Usage: cubesteak <source_dir> <target_dir>");
     std::process::exit(code)
 }
